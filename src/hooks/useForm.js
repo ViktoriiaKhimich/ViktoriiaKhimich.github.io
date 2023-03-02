@@ -12,6 +12,8 @@ export const useForm = (initialState = {}, onSubmit) => {
     });
   };
 
+  // testing automatic deployemnt 
+
   const isCompleteForm = values => {
     return values.every(value => value !== '');
   };
